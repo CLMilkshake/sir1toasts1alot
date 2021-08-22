@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="twitch">
+    <!-- Add a placeholder for the Twitch embed -->
+    <a href="index.html"><button>Back</button></a>
+    <div id="twitch-embed"></div>
+    <!-- Load the Twitch embed JavaScript file -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 1608,
+        height: 880,
+        channel: "sir_toasts-alot",
+        // Only needed if this page is going to be embedded on other websites
+        parent: ["embed.example.com", "othersite.example.com"]
+      });
+    </script>
+    </div>
+    <style>
+        body {
+            background-color: #6653cf;
+        }
+        .twitch {
+
+            margin-left: 20px;
+        }
+    </style>
+</body>
+</html>

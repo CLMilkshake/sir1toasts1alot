@@ -1,0 +1,39 @@
+body {
+    background-image: url("background-image.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Header {
+    background-color: #6653cf;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: -8px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+.link a {
+    color: #cea135;
+    text-decoration: none;
+    font-family:'Carter One', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+}
+.logo { 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.name {
+    display: flex;
+    justify-content: center;
+    color: #cea135;
+}
+
