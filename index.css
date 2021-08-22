@@ -36,4 +36,8 @@ body {
     justify-content: center;
     color: #cea135;
 }
-
+#middle-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
